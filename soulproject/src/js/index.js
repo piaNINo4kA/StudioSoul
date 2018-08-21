@@ -8,6 +8,7 @@
 /** Import initialized-by-default modules/libs */
 import './components/Common';
 import './components/PublicAPI';
+import './components/pole-styles.js';
 
 /** Import page controllers */
 import Home from './pages/Home';

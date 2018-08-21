@@ -81,7 +81,7 @@ var _createClass = function () { function defineProperties(target, props) { for 
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       * @module Helpers
                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                       */
 
-var _jquery = __webpack_require__(6);
+var _jquery = __webpack_require__(7);
 
 var _jquery2 = _interopRequireDefault(_jquery);
 
@@ -384,7 +384,9 @@ __webpack_require__(2);
 
 __webpack_require__(3);
 
-var _Home = __webpack_require__(5);
+__webpack_require__(5);
+
+var _Home = __webpack_require__(6);
 
 var _Home2 = _interopRequireDefault(_Home);
 
@@ -626,6 +628,20 @@ exports.default = new Timer();
 "use strict";
 
 
+// $('document').ready(function() {
+console.log("ready!");
+$('.rose-button').click(function () {
+    $(this).hide();
+});
+// });
+
+/***/ }),
+/* 6 */
+/***/ (function(module, exports, __webpack_require__) {
+
+"use strict";
+
+
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
@@ -691,7 +707,7 @@ var Home = function () {
 exports.default = Home;
 
 /***/ }),
-/* 6 */
+/* 7 */
 /***/ (function(module, exports, __webpack_require__) {
 
 var __WEBPACK_AMD_DEFINE_ARRAY__, __WEBPACK_AMD_DEFINE_RESULT__;/*!
