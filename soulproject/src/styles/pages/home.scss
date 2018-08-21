@@ -181,4 +181,33 @@
     }
   }
 
+  .shedule {
+    table-layout: fixed;
+    tr {
+      height: 30px;
+    }
+    tr:first-child {
+      td:not(:first-child) {
+        text-align: center;
+        border: 3px solid #f5d9ea;
+      }
+      td:first-child {
+        width: 80px;
+      }
+    }
+    td {
+      text-align: center;
+      border: #c1c2c2 1px solid;
+    }
+    td:first-child {
+      border: none;
+    }
+  }
+}
+
+.testrow2 {
+  background-color: #faebf4;
+}
+.testrow1 {
+  background-color: #fafafa;
 }
