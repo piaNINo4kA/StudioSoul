@@ -1,1 +1,19 @@
 // home page styles
+[data-page='home'] {
+  .mainScreen {
+    background-image: url("../img/main1.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    min-height: 600px;
+    background-position: center right 88px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding-bottom: 7%;
+    line-height: 1.23;
+    div {
+      font-family: 'corbel';
+      font-size: 4.5em;
+    }
+  }
+}
