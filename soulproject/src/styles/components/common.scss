@@ -18,6 +18,13 @@ body {
     text-align: center;
     margin-bottom: 25px;
   }
+  &__subtitle {
+    font-family: 'corbel';
+    font-size: 18px;
+    color: #4f4f4f;
+    text-align: center;
+    margin-bottom: 5px;
+  }
   &__callback {
     text-align: center;
   }
@@ -34,4 +41,67 @@ p, span, div {
   text-transform: uppercase;
   font-size: 11px;
   line-height: 1;
+}
+.costs {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 50px;
+  &__title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    img {
+      width: 70px;
+      height: auto;
+    }
+    span {
+      font-family: 'opensansExtraBold';
+      color: #4f4f4f;
+      font-size: 24px;
+      margin-left: 30px;
+    }
+  }
+}
+.cost {
+  border: 1px solid #c1c2c2;
+  width: 23%;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  min-height: 120px;
+  align-items: center;
+  margin: 5px;
+  &__item {
+  }
+  &__title {
+    font-family: 'opensansSemibold';
+    font-size: 18px;
+    margin-bottom: 5px;
+    min-height: 30px;
+  }
+  &__price {
+    font-family: 'opensansBoldItalic';
+    font-size: 30px;
+    color: #a99ca9;
+  }
+  &__time {
+    min-height: 20px;
+  }
+  button {
+    background: none;
+    border: none;
+    img {
+      display: block;
+      width: 50px;
+    }
+  }
+
+}
+.dots {
+  background-image: url("../img/dots1.jpg");
+  background-repeat: no-repeat;
+  background-size: 70%;
+  background-position: 0% 48%;
 }
