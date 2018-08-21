@@ -6,9 +6,11 @@
  */
 
 /** Import initialized-by-default modules/libs */
+import 'jquery';
 import './components/Common';
 import './components/PublicAPI';
 import './components/pole-styles.js';
+// import './../../../www/static/js/lightboxgallery.js';
 
 /** Import page controllers */
 import Home from './pages/Home';
